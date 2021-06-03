@@ -1,0 +1,38 @@
+.menu {
+   &__link1 {
+      font-size: 20px;
+      font-weight: 500;
+      color: brown;
+      text-decoration: none;
+      transition: color 0.3s ease 0s;
+      @media (min-width:920px) {
+        &:hover {
+          color: brown;
+        }
+      }
+      @media (max-width: 526px) {
+        font-size: 40px;
+        display: block;
+        text-align: center;
+      }
+   }
+   }
+
+   .works {
+      padding-bottom: 60px;
+      @media (max-width: 526px) {
+         padding-bottom: 30px;
+      }
+      &__main_title {
+         margin: 0px 0px 45px 0px;
+         @media (max-width:526px) {
+            margin: 0px 0px 20px 0px;
+          }
+      }
+      &__items {
+         padding-bottom: 60px;
+      @media (max-width: 526px) {
+         padding-bottom: 30px;
+      }
+      }
+   }
